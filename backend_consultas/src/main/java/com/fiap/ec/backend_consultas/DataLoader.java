@@ -7,9 +7,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-import com.fiap.ec.backend_consultas.model.Consulta;
-import com.fiap.ec.backend_consultas.model.Medico;
-import com.fiap.ec.backend_consultas.model.Paciente;
+import com.fiap.ec.backend_consultas.Consulta;
+import com.fiap.ec.backend_consultas.Medico;
+import com.fiap.ec.backend_consultas.Paciente;
 import com.fiap.ec.backend_consultas.repository.ConsultaRepository;
 import com.fiap.ec.backend_consultas.repository.MedicoRepository;
 import com.fiap.ec.backend_consultas.repository.PacienteRepository;
